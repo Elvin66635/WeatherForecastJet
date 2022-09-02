@@ -14,7 +14,7 @@ interface WeatherDao {
     suspend fun getFavById(city: String): Favorite
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun insertFavority(favorite: Favorite)
+    suspend fun insertFavorite(favorite: Favorite)
 
     @Update(onConflict = OnConflictStrategy.REPLACE)
     suspend fun updateFavorite(favorite: Favorite)
