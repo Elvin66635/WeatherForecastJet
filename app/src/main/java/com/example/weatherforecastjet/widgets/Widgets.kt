@@ -45,7 +45,7 @@ fun WeatherDetailRow(weather: WeatherItem) {
             WeatherStateImage(imageUrl = imageUrl)
             Surface(modifier = Modifier.padding(0.dp),
                 shape = CircleShape,
-                color = Color(0xFFFFC400)
+                color = Color(0xFFB4C2FF)
             ) {
                 Text(weather.weather[0].description,
                     modifier = Modifier.padding(4.dp),
