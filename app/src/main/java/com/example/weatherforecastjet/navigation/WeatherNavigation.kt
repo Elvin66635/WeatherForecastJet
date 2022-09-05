@@ -17,7 +17,8 @@ import com.example.weatherforecastjet.screens.favorite.FavoritesScreen
 import com.example.weatherforecastjet.screens.settings.SettingsScreen
 import com.example.weatherforecastjet.screens.splash.WeatherSplashScreen
 
-@ExperimentalComposeApi
+@OptIn(ExperimentalComposeApi::class)
+@ExperimentalComposeUiApi
 @Composable
 fun WeatherNavigation() {
     val navController = rememberNavController()
